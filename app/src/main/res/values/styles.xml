@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBlack</item>
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+        <item name="colorAccent">@color/colorButton</item>
+        <item name="colorButtonNormal">@color/colorButton</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+    <style name="CardViewTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="contentPaddingBottom">3dp</item>
+        <item name="contentPaddingTop">5dp</item>
+        <item name="contentPaddingLeft">16dp</item>
+        <item name="contentPaddingRight">16dp</item>
+        <item name="cardBackgroundColor">@color/colorGray</item>
+    </style>
+    <style name="CardViewTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="cardCornerRadius">100dp</item>
+        <item name="cardElevation">2dp</item>
+    </style>
+    <style name="CardViewTheme3" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="contentPaddingBottom">3dp</item>
+        <item name="contentPaddingTop">5dp</item>
+        <item name="contentPaddingLeft">16dp</item>
+        <item name="contentPaddingRight">16dp</item>
+        <item name="cardBackgroundColor">@color/colorGray2</item>
+    </style>
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+    </style>
+</resources>
